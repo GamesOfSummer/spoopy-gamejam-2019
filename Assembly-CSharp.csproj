@@ -69,6 +69,7 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\GameFlow\Scripts\RuntimeReflector.cs" />
     <Compile Include="Assets\GameFlow\Scripts\VersionCheck.cs" />
+    <Compile Include="Assets\Scripts\EatemUp.cs" />
     <Compile Include="Assets\Scripts\Parallaxin.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <None Include="Assets\GameFlow\GameFlow.xml" />
@@ -79,6 +80,9 @@
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -110,6 +114,9 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
@@ -118,12 +125,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/Unity/Spoopy Game Jam/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0a8/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
