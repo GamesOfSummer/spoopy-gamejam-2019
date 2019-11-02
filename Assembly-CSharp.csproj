@@ -70,8 +70,10 @@
     <Compile Include="Assets\GameFlow\Scripts\RuntimeReflector.cs" />
     <Compile Include="Assets\GameFlow\Scripts\VersionCheck.cs" />
     <Compile Include="Assets\Scripts\EatemUp.cs" />
+    <Compile Include="Assets\Scripts\MudSpawner.cs" />
     <Compile Include="Assets\Scripts\Parallaxin.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\StickyMud.cs" />
     <None Include="Assets\GameFlow\GameFlow.xml" />
     <None Include="Assets\GameFlow\[Readme].txt" />
     <None Include="Assets\GameFlow\Resources\[Readme].txt" />
