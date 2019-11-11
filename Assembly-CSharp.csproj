@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Parallaxin.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\StickyMud.cs" />
+    <Compile Include="Assets\Scripts\VictimRunning.cs" />
     <None Include="Assets\GameFlow\GameFlow.xml" />
     <None Include="Assets\GameFlow\[Readme].txt" />
     <None Include="Assets\GameFlow\Resources\[Readme].txt" />

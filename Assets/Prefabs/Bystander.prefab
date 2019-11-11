@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 7735481542449380628}
   - component: {fileID: 7735481542449380629}
   - component: {fileID: 7735481542449380634}
+  - component: {fileID: 3431844177229537979}
   - component: {fileID: 7735481542449380635}
+  - component: {fileID: -4607721581905688693}
   m_Layer: 10
   m_Name: Bystander
   m_TagString: Untagged
@@ -110,6 +112,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.09, y: 0.22}
   m_EdgeRadius: 0
+--- !u!50 &3431844177229537979
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735481542449380632}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 2
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &7735481542449380635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,3 +145,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b671b8a36f71dc04a8504310769b7620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4607721581905688693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735481542449380632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1e373c22c91b7458c8fc71af4b026b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escapeSpeed: 10
+  speedDecreaser: 0.5
+  speedDecreaseMilestone: 20
+  grounded: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 512
